@@ -31,7 +31,7 @@ const (
 			"version": "3.3.0"
 		},
 		"kernelArguments": {
-			"shouldExist": ["rd.luks.name=12345678-9abc-def0-1234-56789abcdef0=rootencrypted", "rd.networkd=1", "systemd.mask=systemd-cryptsetup@rootencrypted.service"]
+			"shouldExist": ["rd.luks.name=12345678-9abc-def0-1234-56789abcdef0=rootencrypted", "rd.networkd=1"]
 		},
 		"storage": {
 			"luks": [
